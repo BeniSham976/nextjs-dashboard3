@@ -1,3 +1,5 @@
+# Copy from .env.local on the Vercel dashboard
+# https://nextjs.org/learn/dashboard-app/setting-up-your-database#create-a-postgres-database
 # Recommended for most uses
 DATABASE_URL=postgres://neondb_owner:npg_u4qRrksYiy5d@ep-rough-thunder-a4mvgxlp-pooler.us-east-1.aws.neon.tech/neondb?sslmode=require
 
@@ -20,3 +22,7 @@ POSTGRES_PASSWORD=npg_u4qRrksYiy5d
 POSTGRES_DATABASE=neondb
 POSTGRES_URL_NO_SSL=postgres://neondb_owner:npg_u4qRrksYiy5d@ep-rough-thunder-a4mvgxlp-pooler.us-east-1.aws.neon.tech/neondb
 POSTGRES_PRISMA_URL=postgres://neondb_owner:npg_u4qRrksYiy5d@ep-rough-thunder-a4mvgxlp-pooler.us-east-1.aws.neon.tech/neondb?connect_timeout=15&sslmode=require
+
+# `openssl rand -base64 32`
+AUTH_SECRET=
+AUTH_URL=http://localhost:3000/api/auth
