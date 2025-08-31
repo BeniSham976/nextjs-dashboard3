@@ -8,7 +8,6 @@ import {
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
-import { UserCircleIcon } from '@heroicons/react/20/solid';
 
 
 // Map of links to display in the side navigation.
@@ -20,7 +19,7 @@ const links = [
     href: '/dashboard/customers',
     icon: DocumentDuplicateIcon,
   },
-  { name: 'Invoices', href: '/dashboard/invoices', icon: UserGroupIcon }
+  { name: 'Invoices', href: '/dashboard/invoices', icon: UserGroupIcon },
 ];
 
 export default function NavLinks() {
