@@ -16,12 +16,11 @@ import { UserCircleIcon } from '@heroicons/react/20/solid';
 const links = [
   { name: 'Home', href: '/dashboard', icon: HomeIcon },
   {
-    name: 'Scratch',
-    href: '/dashboard/scratch',
+    name: 'Customers',
+    href: '/dashboard/customers',
     icon: DocumentDuplicateIcon,
   },
-  { name: 'Python', href: '/dashboard/python', icon: UserGroupIcon },
-  { name: 'Web', href: '/dashboard/web', icon:UserCircleIcon}
+  { name: 'Invoices', href: '/dashboard/invoices', icon: UserGroupIcon }
 ];
 
 export default function NavLinks() {
